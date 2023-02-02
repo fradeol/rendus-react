@@ -1,8 +1,12 @@
+import Presentation from "../components/Presentation";
+import Slider from "../components/Slider";
+
 export default function Home() {
 
     return (
-        <div>
-            <h1>Home</h1>
+        <div className="home">
+            <Slider/>
+            <Presentation/>
         </div>
     );
 }

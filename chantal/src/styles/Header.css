@@ -1,0 +1,26 @@
+header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+header nav {
+    display: flex;
+    flex-direction: row;
+}
+
+header .navMenu a {
+    margin-inline: 25px;
+    text-decoration: none;
+    color: gray;
+}
+
+header .navMenu a:hover {
+    color: rgb(80, 80, 80);
+}
+
+header {
+    height: 200px;
+    margin-inline: 50px;
+    border-bottom: 2px solid black;
+}

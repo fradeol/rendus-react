@@ -1,8 +1,15 @@
+import MenuContexte from "../contexte/MenuContexte";
+
 export default function Menu() {
 
     return (
-        <div>
-            <h1>Menu</h1>
-        </div>
+        <MenuContexte>
+            <div className="menu">
+                <h1>Miam Miam</h1>
+                <button>Entrées</button>
+                <button>PLats</button>
+                <button>Deserts</button>
+            </div>
+        </MenuContexte>
     );
 }
