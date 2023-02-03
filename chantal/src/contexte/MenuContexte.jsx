@@ -5,18 +5,19 @@ export const contexteMenu = createContext();
 
 export default function MenuContexte(props) {
 
-    const [categorieAliment, setCategorieAliment] = useState(dataMenu[0]);
+    const [categorieAliment, setCategorieAliment] = useState("entree");
 
     const toggleCategorie = (newCategorie) => {
         setCategorieAliment(newCategorie)
     }
+
+    
 
     return (
         <div>
             <contexteMenu.Provider value={{ categorieAliment, toggleCategorie }}>
                 {props.children}
             </contexteMenu.Provider>
-            
         </div>
     )
 }

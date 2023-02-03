@@ -1,14 +1,15 @@
 import MenuContexte from "../contexte/MenuContexte";
+import BtnMenu from "../components/BtnMenu";
+import ChangingMenu from "../components/ChangingMenu";
 
 export default function Menu() {
 
     return (
         <MenuContexte>
             <div className="menu">
-                <h1>Miam Miam</h1>
-                <button>Entrées</button>
-                <button>PLats</button>
-                <button>Deserts</button>
+                
+                <BtnMenu/>
+                <ChangingMenu/>
             </div>
         </MenuContexte>
     );

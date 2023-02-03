@@ -1,0 +1,19 @@
+.btnsMenus {
+    
+    display: flex;
+}
+
+button {
+    height: 100px;
+    width: 100%;
+    border: none;
+    font-size: large;
+}
+
+button:hover {
+    background-color: rgb(235, 235, 235);
+    /* transition: opacity ease-in-out 0.4s; */
+}
+.content-miam {
+    text-align: center;
+}
