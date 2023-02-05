@@ -1,13 +1,17 @@
 import '../styles/Footer.css'
+import 'bootstrap/dist/css/bootstrap.min.css'
+import { FaFacebook, FaInstagram } from "react-icons/fa";
+
 
 export default function Footer() {
 
     return (
         <footer>
-            <h3>Suivez-nous sur les réseaux</h3>
+            <h4>Suivez-nous sur les réseaux</h4>
+            
             <div className="icon-reseau">
-                <i class="fa-brands fa-instagram"></i>
-                <i class="fa-brands fa-square-facebook"></i>
+                <a href="https://www.facebook.com/LaTableDeChantal"><FaFacebook className="rs facebook" /></a>
+                <a href="#"><FaInstagram className="rs instagram"/></a>
             </div>
            
         </footer>
