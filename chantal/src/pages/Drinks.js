@@ -1,9 +1,23 @@
+
+
+
+
+
 export default function Drinks() {
 
     return (
         <div className="drinks">
-            <h1>Drinks</h1>
+            <h1>Glou Glou</h1>
             
         </div>
     );
 }
+
+
+
+
+    
+
+   
+        
+    

@@ -22,11 +22,11 @@ form {
 .firstRow input {
     width: 50vh;
     margin-inline: 10px;
-    height: 25px;
+    height: 30px;
 }
 
 #sujet {
-    width: 106vh;
+    width: 102vh;
     height: 30px;
     margin-left: 10px;
     margin-bottom: 30px;
@@ -35,6 +35,7 @@ form {
 textarea {
     margin-left: 10px;
     margin-bottom: 30px;
+    width: 102vh;
 }
 
 .submit {

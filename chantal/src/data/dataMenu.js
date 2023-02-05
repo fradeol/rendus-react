@@ -1,53 +1,60 @@
 import { v4 as uuidv4 } from "uuid";
+import salade from '../produits/salade-cesar.jpg'
+import soupe from '../produits/soupe-oignon.jpg'
+import chevre from '../produits/chevre-miel.jpg'
+import coquille from '../produits/Coquilles.jpg'
+import oeuf from '../produits/oeuf.jpg'
+import carbo from '../produits/carbonnade.jpg'
+import choucroute from '../produits/Choucroute.jpg'
 
 const dataMenu = [
     { 
         id: uuidv4(),
         categorie: "entree",
         nom: "salade césar",
-        // image:
+        image: salade,
         prix: "10,50€"
     },
     {
         id: uuidv4(),
         categorie: "entree",
         nom: "soupe à l'oignon",
-        // image:
+        image: soupe,
         prix: "5,00€"
     },
     {
         id: uuidv4(),
         categorie: "entree",
         nom: "croustillant de chèvre et poires au miel",
-        // image:
+        image: chevre,
         prix: "8,00€"
     },
     {
         id: uuidv4(),
         categorie: "entree",
         nom: "Coquilles saint-jacques",
-        // image:
+        image: coquille,
         prix: "15,00€"
     },
     {
         id: uuidv4(),
         categorie: "entree",
         nom: "Oeufs mimosa",
-        // image:
+        image: oeuf,
         prix: "3,50€"
     },
     {
         id: uuidv4(),
         categorie: "plat",
         nom: "Carbonnade flammande",
-        // image:
+        image: carbo,
         prix: "17,00€"
     },
     {
         id: uuidv4(),
         categorie: "plat",
         nom: "Choucroute",
-        // image:
+        image: choucroute,
         prix: "18,00€"
     },
     {
