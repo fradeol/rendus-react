@@ -13,7 +13,7 @@ export default function ChangingMenu() {
             { dataMenu.map( ( meal ) => {
                 if(meal.categorie === categorieAliment){
                     return (
-                        <li key={meal.id}><img src={meal.image} alt={meal.nom} /> { meal.nom } : { meal.prix }</li>
+                        <li key={meal.id}><img src={meal.image} alt={meal.nom} /><p>{ meal.nom } : { meal.prix }</p></li>
                     )
                 }
             })}
