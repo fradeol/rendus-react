@@ -6,7 +6,7 @@ export default function Presentation() {
         <div >
             <div className="content-pres">
                 <div className='bandeau'>
-                    <span>Jean-Michel Goudmerd 
+                    <span>Jean-Michel Cuisine 
                         <br/>
                         <em>9 ans d'expérience</em>
                     </span>
